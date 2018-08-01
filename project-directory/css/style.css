@@ -1,4 +1,21 @@
 p {
-color:(0,0,255);
+text-align: center;
+color:rgb(0,0,255);
 }
 
+article {
+  background-image: url(img/houseImg/HouseImg.jpg);
+  border-width: 200px;
+  text-align: center;
+  width: 50% ;
+}
+em {
+  color:rgb(0, 0, 10)
+}
+
+header {
+  font-size: 25px;
+  color:rgb(0,0,255);
+  }
+  
+  
