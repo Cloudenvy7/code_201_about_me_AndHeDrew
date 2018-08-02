@@ -1,36 +1,41 @@
-ol {
-text-align: center;
-color:rgb(0,0,255);
-padding: 10px;
-}
-
-article {
-  padding: 10px;
-  background-color: azure;
-  margin: 20px auto;
-  text-align: center;
-  width: 50% ;
-}
-em {
-  color:rgb(0, 0, 10)
-}
-
 header {
   font-size: 25px;
   color:rgb(0,0,255);
   text-align: center;
   }
   
-  body{
-    background-image: url(/img/houseImg/HouseImg.jpg);
-  }
+body{
+  background-color: burlywood;
+  /*background-image:*/ 
+}
   
-  article img{
-   inline-size: 15%;
-   width: 15%;
-   height: 15%; 
-  }
 
-  ul{
-   display: inline-block;
-  }
+ol {
+text-align: left;
+color: blue; 
+padding: 10px;
+}
+
+/* Article Css */
+article {
+  padding: 10px;
+  background-color: azure;
+  margin: auto;
+  text-align: center;
+  width: 100% ;
+}
+
+article img{
+  display:inline;
+  width: 10%;
+  height: 10%; 
+ }
+
+ .finalImage li{
+  display:inline;
+  position: relative; 
+ }
+
+em {
+  color:rgb(0, 0, 10)
+}
