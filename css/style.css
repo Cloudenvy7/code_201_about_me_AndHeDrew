@@ -2,6 +2,13 @@ header {
   font-size: 25px;
   color:rgb(0,0,255);
   text-align: center;
+  }
+  
+body{
+  background-color: burlywood;
+  /*background-image:*/ 
+}
+  
   margin-bottom: 20px;
   }
   
@@ -58,6 +65,21 @@ article {
 }
 
 article img{
+
+  display:inline;
+  width: 10%;
+  height: 10%; 
+ }
+
+ .finalImage li{
+  display:inline;
+  position: relative; 
+ }
+
+em {
+  color:rgb(0, 0, 10)
+}
+
   width: 5%;
   height: 5%; 
 }
