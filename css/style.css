@@ -9,7 +9,46 @@ body{
   /*background-image:*/ 
 }
   
+  margin-bottom: 20px;
+  }
+  
+body{
+  /*background-image:*/ 
+}
+  
+/* .fullBackground {
+  background-image: url(../img/houseImg/HouseImg.jpg);
+  opacity: 0%;
+  width: 100%;
+  height:100%;
+} */
 
+.float-left-area{
+ position: fixed ;
+ background-color: brown;
+ width: 150px;
+ height: 100vh;
+ top: 0px;
+ right: -100px;
+ transition: all .5s ease; 
+}
+
+.float-left-area p{
+  opacity:0;
+  transition: all .5s ease; 
+}
+
+
+.float-left-area:hover {
+background-color: yellow; 
+right: 0px;
+opacity: 1;
+}
+
+.float-left-area:hover p {
+   opacity: 1;
+  }
+  
 ol {
 text-align: left;
 color: blue; 
@@ -26,6 +65,7 @@ article {
 }
 
 article img{
+
   display:inline;
   width: 10%;
   height: 10%; 
@@ -39,3 +79,24 @@ article img{
 em {
   color:rgb(0, 0, 10)
 }
+
+  width: 5%;
+  height: 5%; 
+}
+ .finalImage img{
+  width: 100%;
+  height: 50%; 
+  opacity: 1;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5)
+ } 
+
+ /* .finalImage img:hover {
+ opacity: 1;
+ }  */
+
+ 
+em {
+  color:rgb(0, 0, 10)
+}
+
+
